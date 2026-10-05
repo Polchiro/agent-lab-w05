@@ -1,0 +1,62 @@
+[
+  {
+    "source": "feedback_questions.txt",
+    "destination": "feedback/feedback_questions.txt",
+    "reason": "Questions for collecting feedback."
+  },
+  {
+    "source": "meeting_notes.txt",
+    "destination": "planning/meeting_notes.txt",
+    "reason": "Proposal or activity planning note; differing versions are preserved without assuming approval."
+  },
+  {
+    "source": "next_steps.txt",
+    "destination": "planning/next_steps.txt",
+    "reason": "Proposal or activity planning note; differing versions are preserved without assuming approval."
+  },
+  {
+    "source": "rain_plan.txt",
+    "destination": "planning/rain_plan.txt",
+    "reason": "Proposal or activity planning note; differing versions are preserved without assuming approval."
+  },
+  {
+    "source": "proposal_final.txt",
+    "destination": "planning/proposal_final.txt",
+    "reason": "Proposal or activity planning note; differing versions are preserved without assuming approval."
+  },
+  {
+    "source": "proposal_final2.txt",
+    "destination": "planning/proposal_final2.txt",
+    "reason": "Proposal or activity planning note; differing versions are preserved without assuming approval."
+  },
+  {
+    "source": "budget_draft.txt",
+    "destination": "resources/budget_draft.txt",
+    "reason": "Budget or equipment resource record; identical copies are kept separately."
+  },
+  {
+    "source": "equipment_list.txt",
+    "destination": "resources/equipment_list.txt",
+    "reason": "Budget or equipment resource record; identical copies are kept separately."
+  },
+  {
+    "source": "equipment_backup.txt",
+    "destination": "resources/equipment_backup.txt",
+    "reason": "Budget or equipment resource record; identical copies are kept separately."
+  },
+  {
+    "source": "announcement.txt",
+    "destination": "communications/announcement.txt",
+    "reason": "Announcement or activity communication text."
+  },
+  {
+    "source": "announcement_copy.txt",
+    "destination": "communications/announcement_copy.txt",
+    "reason": "Announcement or activity communication text."
+  },
+  {
+    "source": "poster_text.txt",
+    "destination": "communications/poster_text.txt",
+    "reason": "Announcement or activity communication text."
+  }
+]
