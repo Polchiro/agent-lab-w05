@@ -18,7 +18,7 @@
     .notice { margin: 12px 0 0; color: #46594d; }
     .filters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
     label { display: grid; gap: 6px; font-weight: 650; }
-    select, button { font: inherit; border-radius: 10px; border: 1px solid #73897a; padding: 10px 12px; background: white; color: inherit; }
+    select, button { font: inherit; font-size: 1rem; min-height: 48px; border-radius: 10px; border: 1px solid #73897a; padding: 10px 12px; background: white; color: inherit; touch-action: manipulation; }
     button { cursor: pointer; font-weight: 700; }
     button.primary { background: #246b43; color: white; border-color: #246b43; }
     button:hover { filter: brightness(.96); }
@@ -117,3 +117,4 @@ renderHistory();
 </script>
 </body>
 </html>
+
