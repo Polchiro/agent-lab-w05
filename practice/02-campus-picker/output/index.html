@@ -44,7 +44,7 @@
     <h2 id="filtersHeading" data-i18n="filters">選擇條件</h2>
     <div class="filters">
       <label><span data-i18n="location">地點</span><select id="location"><option value="all" data-i18n="allLocations">不限</option><option value="indoor" data-i18n="indoor">室內</option><option value="outdoor" data-i18n="outdoor">戶外</option></select></label>
-      <label><span data-i18n="time">可用時間</span><select id="time"><option value="15">15 分鐘</option><option value="30" selected>30 分鐘</option><option value="60">60 分鐘</option></select></label>
+      <label><span data-i18n="time">可用時間</span><select id="time"><option value="15" data-i18n="min15">15 分鐘</option><option value="30" selected data-i18n="min30">30 分鐘</option><option value="60" data-i18n="min60">60 分鐘</option></select></label>
       <label><span data-i18n="energy">精力</span><select id="energy"><option value="all" data-i18n="allEnergy">不限</option><option value="low" data-i18n="low">低</option><option value="medium" data-i18n="medium">中</option></select></label>
     </div>
     <div class="actions"><button class="primary" id="pick" type="button" data-i18n="pick">幫我挑一個</button><button id="reset" type="button" data-i18n="reset">重設條件</button></div>
@@ -74,8 +74,8 @@ const activities = [
   {id:'A12',name_zh:'構思下一次社團活動',name_en:'Brainstorm a future club activity',location_type:'indoor',minutes:60,energy:'medium'}
 ];
 const words = {
-  zh:{title:'課間活動挑選器',notice:'教學模擬活動；不是校方公告。',filters:'選擇條件',location:'地點',allLocations:'不限',indoor:'室內',outdoor:'戶外',time:'可用時間',energy:'精力',allEnergy:'不限',low:'低',medium:'中',pick:'幫我挑一個',reset:'重設條件',result:'挑選結果',prompt:'選好條件後，按「幫我挑一個」。',history:'最近結果',clear:'清除紀錄',historyEmpty:'還沒有成功的挑選。',noMatch:'沒有符合的活動。',activity:'活動',minutes:'分鐘',locationValue:{indoor:'室內',outdoor:'戶外'},energyValue:{low:'低',medium:'中'},switchLabel:'Switch to English'},
-  en:{title:'Between-Class Activity Picker',notice:'Fictional teaching activities; not an official university announcement.',filters:'Choose your filters',location:'Location',allLocations:'All locations',indoor:'Indoor',outdoor:'Outdoor',time:'Available time',energy:'Energy',allEnergy:'All energy levels',low:'Low',medium:'Medium',pick:'Pick an activity',reset:'Reset filters',result:'Your pick',prompt:'Choose filters, then pick an activity.',history:'Recent picks',clear:'Clear history',historyEmpty:'No successful picks yet.',noMatch:'No matching activities.',activity:'Activity',minutes:'min',locationValue:{indoor:'Indoor',outdoor:'Outdoor'},energyValue:{low:'Low',medium:'Medium'},switchLabel:'切換為中文'}
+  zh:{title:'課間活動挑選器',notice:'教學模擬活動；不是校方公告。',filters:'選擇條件',location:'地點',allLocations:'不限',indoor:'室內',outdoor:'戶外',time:'可用時間',min15:'15 分鐘',min30:'30 分鐘',min60:'60 分鐘',energy:'精力',allEnergy:'不限',low:'低',medium:'中',pick:'幫我挑一個',reset:'重設條件',result:'挑選結果',prompt:'選好條件後，按「幫我挑一個」。',history:'最近結果',clear:'清除紀錄',historyEmpty:'還沒有成功的挑選。',noMatch:'沒有符合的活動。',activity:'活動',minutes:'分鐘',locationValue:{indoor:'室內',outdoor:'戶外'},energyValue:{low:'低',medium:'中'},switchLabel:'Switch to English'},
+  en:{title:'Between-Class Activity Picker',notice:'Fictional teaching activities; not an official university announcement.',filters:'Choose your filters',location:'Location',allLocations:'All locations',indoor:'Indoor',outdoor:'Outdoor',time:'Available time',min15:'15 min',min30:'30 min',min60:'60 min',energy:'Energy',allEnergy:'All energy levels',low:'Low',medium:'Medium',pick:'Pick an activity',reset:'Reset filters',result:'Your pick',prompt:'Choose filters, then pick an activity.',history:'Recent picks',clear:'Clear history',historyEmpty:'No successful picks yet.',noMatch:'No matching activities.',activity:'Activity',minutes:'min',locationValue:{indoor:'Indoor',outdoor:'Outdoor'},energyValue:{low:'Low',medium:'Medium'},switchLabel:'切換為中文'}
 };
 let language = 'zh';
 let history = [];
